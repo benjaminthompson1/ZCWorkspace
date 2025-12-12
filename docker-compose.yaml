@@ -1,0 +1,23 @@
+version: "3.2"
+services:
+    zosConnect:
+        image: icr.io/zosconnect/ibm-zcon-designer:3.0.98
+        user: root
+        environment:
+            - CICS_USER=IBMUSER
+            - CICS_PASSWORD={aes}ARCmKALMAO38K+mtJ3sPpSsnG6B1EVhvk3Mhvfq3xkbG8QW8PIvllZf2uu3ZcfCCstgbj3fcBg4MtGHnAmoOgA3xyAOrb19n7vdQF8qUMwKAFegMrfEO6hJaqQ3eJPj5tidCZoMh7A==
+            - CICS_HOST=s0w1.dal-ebis.ihost.com
+            - CICS_PORT=12080
+            - DB2_USERNAME=IBMUSER
+            - DB2_PASSWORD={aes}ARCmKALMAO38K+mtJ3sPpSsnG6B1EVhvk3Mhvfq3xkbG8QW8PIvllZf2uu3ZcfCCstgbj3fcBg4MtGHnAmoOgA3xyAOrb19n7vdQF8qUMwKAFegMrfEO6hJaqQ3eJPj5tidCZoMh7A==
+            - DB2_HOST=s0w1.dal-ebis.ihost.com
+            - DB2_PORT=5045
+            - HTTP_PORT=9080
+            - zosconnect_remote_download_allowlist=BLOCK_ALL
+        ports:
+            - "9443:9443"
+            - "9080:9080"
+        volumes:
+            - ./CatalogManagerApi:/workspace/project
+            - ./logs/:/logs/
+            - ./certs:/config/resources/security/:ro

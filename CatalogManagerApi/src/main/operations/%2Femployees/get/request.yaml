@@ -1,0 +1,13 @@
+---
+version: "1.2"
+mappings:
+- body:
+    mappings:
+    - WORKDEPT:
+        required: true
+        nullable: true
+        template: "{{$queryParameters.department}}"
+    - JOB:
+        required: true
+        nullable: true
+        template: "{{$queryParameters.job}}"

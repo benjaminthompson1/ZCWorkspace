@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1   12/8/25, 22:24:17:610 UTC   12/8/25, 22:24:17:610 UTC java.lang.IllegalStateException com.ibm.ws.kernel.feature.internal.FeatureManager 943
+                                                                            - /logs/ffdc/ffdc_25.12.08_22.24.17.0.log
+------+------+---------------------------+---------------------------+---------------------------
