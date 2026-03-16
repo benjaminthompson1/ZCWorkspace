@@ -5,12 +5,12 @@ services:
         user: root
         environment:
             - CICS_USER=IBMUSER
-            - CICS_PASSWORD={aes}ARCmKALMAO38K+mtJ3sPpSsnG6B1EVhvk3Mhvfq3xkbG8QW8PIvllZf2uu3ZcfCCstgbj3fcBg4MtGHnAmoOgA3xyAOrb19n7vdQF8qUMwKAFegMrfEO6hJaqQ3eJPj5tidCZoMh7A==
-            - CICS_HOST=s0w1.dal-ebis.ihost.com
+            - CICS_PASSWORD={aes}ARAdLDaOsYUcWsXQlMt7PxngB3/Vuk6niPORk/1K42ZBqrS3S7CnA6lgYWR/ue+G3qhbkjbIpq+3mc9f009lL77cVQ6sf5zmjOyx/dxUPPEl/a/FEsinlrr3XoT3UMkvafDsWDM1N5Ff
+            - CICS_HOST=192.168.1.171.nip.io
             - CICS_PORT=12080
             - DB2_USERNAME=IBMUSER
-            - DB2_PASSWORD={aes}ARCmKALMAO38K+mtJ3sPpSsnG6B1EVhvk3Mhvfq3xkbG8QW8PIvllZf2uu3ZcfCCstgbj3fcBg4MtGHnAmoOgA3xyAOrb19n7vdQF8qUMwKAFegMrfEO6hJaqQ3eJPj5tidCZoMh7A==
-            - DB2_HOST=s0w1.dal-ebis.ihost.com
+            - DB2_PASSWORD={aes}ARAdLDaOsYUcWsXQlMt7PxngB3/Vuk6niPORk/1K42ZBqrS3S7CnA6lgYWR/ue+G3qhbkjbIpq+3mc9f009lL77cVQ6sf5zmjOyx/dxUPPEl/a/FEsinlrr3XoT3UMkvafDsWDM1N5Ff
+            - DB2_HOST=192.168.1.171.nip.io
             - DB2_PORT=5045
             - HTTP_PORT=9080
             - zosconnect_remote_download_allowlist=BLOCK_ALL

@@ -1,5 +1,6 @@
-[12/12/25 05:07:56:570 UTC] - BAQW0056I: Undeploying API project.
-[12/12/25 05:07:56:572 UTC] - BAQW0063I: Building API project.
+[12/16/25 21:21:54:300 UTC] - BAQW0056I: Undeploying API project.
+[12/16/25 21:21:54:302 UTC] - BAQW0060I: API project was not deployed already.
+[12/16/25 21:21:54:304 UTC] - BAQW0063I: Building API project.
 
 > Task :clean
 BAQG0001I: Deleting generated Java in /workspace/project/src/gen
@@ -37,8 +38,8 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 57s
 8 actionable tasks: 8 executed
-[12/12/25 05:08:20:556 UTC] - BAQW0064I: API project built successfully.
-[12/12/25 05:08:20:565 UTC] - BAQW0057I: Deploying API project.
-[12/12/25 05:08:21:603 UTC] - BAQW0068I: API project deployed successfully.
+[12/16/25 21:22:51:801 UTC] - BAQW0064I: API project built successfully.
+[12/16/25 21:22:51:818 UTC] - BAQW0057I: Deploying API project.
+[12/16/25 21:22:55:925 UTC] - BAQW0068I: API project deployed successfully.
